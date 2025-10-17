@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>vibesurfing</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header>
+      <img src="../assets/icon.png" alt="vibesurfing" width="20" />
+      <h1>vibesurfing</h1>
+    </header>
+
+    <main>
+      <div class="controls">
+  <textarea id="prompt" placeholder="输入提示或按 Ctrl+M 复制选中内容"></textarea>
+        <div class="actions">
+          <button id="summary">Summary</button>
+          <button id="ask">Ask</button>
+          <button id="write">Write</button>
+        </div>
+      </div>
+
+      <div id="results"></div>
+    </main>
+
+    <footer>
+      <small>v0.1.0</small>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
